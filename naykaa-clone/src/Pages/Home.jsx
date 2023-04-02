@@ -109,9 +109,9 @@ export default function Home() {
             <Image  style={{width:"100%"}} src="https://images-static.nykaa.com/uploads/2adda7a5-567a-4db1-b408-06c96be60287.jpg?tr=w-1200,cm-pad_resize"/>
             </Box>
 
-            <Grid m={10}templateColumns='repeat(6, 1fr)' gap={5}>
-                <Box><Image src="https://images-static.nykaa.com/uploads/c59db0d6-872e-4fd1-bc64-8331897b3965.jpg?tr=w-240,cm-pad_resize"/>
-                <Text fontSize={25} mt={2}>Moisturisers</Text>
+            <Grid ml={-100} m={10}templateColumns='repeat(6, 1fr)' gap={-15}>
+                <Box ><Image src="https://images-static.nykaa.com/uploads/c59db0d6-872e-4fd1-bc64-8331897b3965.jpg?tr=w-240,cm-pad_resize"/>
+                <Text fontSize={25} mt={2} >Moisturisers</Text>
                 </Box> 
 
                 <Box><Image src="https://images-static.nykaa.com/uploads/8f8b55d5-0bfc-4545-ba05-df0177672474.jpg?tr=w-240,cm-pad_resize"/>
@@ -128,7 +128,7 @@ export default function Home() {
 
                 <Box>
                   <Image src="https://images-static.nykaa.com/uploads/d4eba2cb-bbf9-4f6c-ac47-281819f52385.jpg?tr=w-240,cm-pad_resize"/>
-                  <Text fontSize={25} mt={2} color='red.250'>Shampoos & Conditioners</Text>
+                  <Text fontSize={25} mt={2} color='red.250'>Shampoos & <br/> Conditioners</Text>
                 </Box>
             </Grid>
     </Box>

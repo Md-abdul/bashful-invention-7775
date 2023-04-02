@@ -6,8 +6,9 @@ import BeautyAdvice from '../Pages/BeautyAdvice'
 import Categories from '../Pages/Categories'
 import Luxe from '../Pages/Luxe'
 import Naykafashion from '../Pages/Naykafashion'
+import sinleProductPage from '../Pages/singleProductPage'
 import Home from '../Pages/Home'
-import singleProductPage from '../Pages/singleProductPage';
+// import
 export default function AllRoutes() {
   return (
    <Routes>
@@ -17,7 +18,9 @@ export default function AllRoutes() {
      <Route path='/Luxe' element={<Luxe/>}/>
      <Route path='/Naykafashion' element={<Naykafashion/>}/>
      <Route path='/BeautyAdvice' element={<BeautyAdvice/>}/>
-     <Route path='/Brands/:brands_id' element={<singleProductPage/>}/>
+     <Route path='/Brands/:id' element={<sinleProductPage/>}/>
+     
    </Routes>
   )
+  
 }
